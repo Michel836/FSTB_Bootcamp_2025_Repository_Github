@@ -1,0 +1,10 @@
+URL: https://github.com/Michel836/FSTB_Bootcamp_2025_Repository_Github/blob/main/Week00/Day1/W00D1_ExerciceXP.ipynb
+suggestions for improvement:
+- In Exercise 3, consider adding more robust error handling or input validation to handle cases where the user might enter unexpected input (e.g., empty strings, numbers).
+- In Exercise 8, the code efficiently removes 'Pastrami sandwich' entries. However,  adding a check to ensure that `sandwich_orders` isn't empty before proceeding in the second `while` loop would enhance robustness.
+Brief justification:
+- correctness: All exercises directly address the problems stated in the chapter content. Each code snippet correctly implements the functionality described in the corresponding exercise.  The solutions demonstrate basic Python syntax, user input/output, data types (lists, tuples, sets), conditional statements, and loops – all topics explicitly covered in the chapter.
+- readability: The code is generally well-structured and easy to understand. Variable names are mostly descriptive.  However, some comments could be more concise and targeted.  The use of f-strings in Exercise 8 improves readability.
+- performance: The code's performance is efficient for the tasks.  The algorithms used are straightforward and do not have unnecessary complexities. The `while` loop in Exercise 8 is an efficient approach for removing items from a list.
+- security: There are no apparent security vulnerabilities in the provided code.  The code only interacts with user input within a controlled environment, and there's no handling of sensitive data or external resources that could pose a security risk.
+
