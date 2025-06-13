@@ -1,0 +1,9 @@
+URL: URL: https://github.com/Michel836/FSTB_Bootcamp_2025_Repository_Github/blob/main/Week01/Day5/W01D5_Miniproject_RocCissorPaper.ipynb
+suggestions for improvement:
+- The code implements a Rock-Paper-Scissors game, but it doesn't follow the modular structure requested in the instructions.  It should be split into `game.py` (containing the `Game` class) and `rock-paper-scissors.py` (containing the menu and summary functions).
+- The `Game` class should have the four methods specified: `get_user_item`, `get_computer_item`, `get_game_result`, and `play`. The current code combines these functionalities.
+- The `rock-paper-scissors.py` file is missing entirely.  The menu system and result printing need to be separated from the game logic.
+- The `play()` method should print the user's and computer's choices and the result of each round.  It also needs to return a string indicating win, draw or loss to allow tracking of game results for the summary.
+- The main program (`main.py`) should manage the game loop, call the appropriate functions from `game.py` and `rock-paper-scissors.py`, and handle user input to quit or view scores.  Currently, there is no clear separation of concern between the core game and the user interaction.
+Correctness: 70%
+-----
